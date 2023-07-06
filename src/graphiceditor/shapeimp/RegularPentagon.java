@@ -16,9 +16,13 @@ public class RegularPentagon extends Shape {
         this.sideA = sideA;
     }
 
+    public void setSideA(double sideA) {
+        this.sideA = sideA;
+    }
+
     @Override
     public double getArea() {
-        return 5 / 2 * sideA * Math.sqrt(Math.pow((sideA / (2 * Math.sin(Math.PI / 5))), 2) - (Math.pow(sideA, 2) / 4));
+        return 5.0 / 2.0 * sideA * Math.sqrt(Math.pow((sideA / (2 * Math.sin(Math.PI / 5))), 2) - (Math.pow(sideA, 2) / 4));
     }
 
     @Override

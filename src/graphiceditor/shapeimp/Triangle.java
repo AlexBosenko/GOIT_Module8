@@ -22,6 +22,18 @@ public class Triangle extends Shape {
         this.sideC = sideC;
     }
 
+    public void setSideA(double sideA) {
+        this.sideA = sideA;
+    }
+
+    public void setSideB(double sideB) {
+        this.sideB = sideB;
+    }
+
+    public void setSideC(double sideC) {
+        this.sideC = sideC;
+    }
+
     @Override
     public double getArea() {
         double p = getPerimeter() / 2.0;

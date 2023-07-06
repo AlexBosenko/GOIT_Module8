@@ -19,6 +19,14 @@ public class Rectangle extends Shape {
         this.sideB = sideB;
     }
 
+    public void setSideA(double sideA) {
+        this.sideA = sideA;
+    }
+
+    public void setSideB(double sideB) {
+        this.sideB = sideB;
+    }
+
     @Override
     public double getArea() {
         return sideA * sideB;

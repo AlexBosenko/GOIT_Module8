@@ -1,7 +1,7 @@
 package graphiceditor;
 
 abstract public class Shape implements Drawable, Borderable {
-    private String name;
+    private final String name;
     private ShapeColor shapeColor;
     private double borderWidth;
 

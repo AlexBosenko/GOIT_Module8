@@ -19,6 +19,14 @@ public class Ellipse extends Shape {
         this.bigRadius = bigRadius;
     }
 
+    public void setSmallRadius(double smallRadius) {
+        this.smallRadius = smallRadius;
+    }
+
+    public void setBigRadius(double bigRadius) {
+        this.bigRadius = bigRadius;
+    }
+
     @Override
     public double getArea() {
         return Math.PI * smallRadius * bigRadius;

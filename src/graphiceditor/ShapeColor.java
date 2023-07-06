@@ -5,5 +5,5 @@ public enum ShapeColor {
     GREEN,
     BLUE,
     YELLOW,
-    BLACK;
+    BLACK
 }
