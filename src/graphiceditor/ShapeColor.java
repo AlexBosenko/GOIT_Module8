@@ -1,6 +1,6 @@
 package graphiceditor;
 
-public enum Color {
+public enum ShapeColor {
     RED,
     GREEN,
     BLUE,
